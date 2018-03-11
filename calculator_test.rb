@@ -44,9 +44,6 @@ class TestCalculator < Minitest::Test
         b = rand(100)
         assert_in_delta a / b, @calculator.divide(a,b)
       end
-    end
-
-    
+    end    
   end
-
 end
